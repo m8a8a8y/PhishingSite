@@ -1,0 +1,54 @@
+/* Full-page cyber attack theme */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://media.licdn.com/dms/image/v2/D4D12AQFlNtgMTkgfdg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1697292855252?e=2147483647&v=beta&t=DgnLQ-a4GHBq_w4cuKr30eibtrbXcJDBH1mx0oeaSnI'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Makes the background stable when scrolling */
+    font-family: 'Courier New', Courier, monospace;
+    color: limegreen;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for text */
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black box for better contrast */
+    border: 2px solid lime;
+    box-shadow: 0 0 10px green, 0 0 20px lime;
+}
+
+/* Hacked text style */
+#hacked-text {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px green, 0 0 20px lime, 0 0 30px limegreen;
+    animation: glitch 1s infinite;
+}
+
+/* Sub-message style */
+.message {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: lightgreen;
+    opacity: 0.8;
+}
+
+/* Glitch animation for text */
+@keyframes glitch {
+    0% {
+        text-shadow: 2px 2px 0 lime, -2px -2px 0 lime;
+    }
+    50% {
+        text-shadow: -2px -2px 0 limegreen, 2px 2px 0 green;
+    }
+    100% {
+        text-shadow: 2px -2px 0 green, -2px 2px 0 lime;
+    }
+}
