@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('https://archive.org/download/red-matrix-bg/red-matrix-bg.gif'); /* Add your background image here */
+    background-image: url('img.gif'); /* Add your background image here */
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Makes the background stable when scrolling */
