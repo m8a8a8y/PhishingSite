@@ -7,7 +7,7 @@ body {
     background-position: center;
     background-attachment: fixed; /* Makes the background stable when scrolling */
     font-family: 'Courier New', Courier, monospace;
-    color: limegreen;
+    color: neonblue;
     height: 100vh;
     overflow: hidden;
     display: flex;
@@ -20,15 +20,15 @@ body {
     text-align: center;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black box for better contrast */
-    border: 2px solid lime;
-    box-shadow: 0 0 10px green, 0 0 20px lime;
+    border: 2px solid neonblue;
+    box-shadow: 0 0 10px neonblue, 0 0 20px neonblue;
 }
 
 /* Hacked text style */
 #hacked-text {
     font-size: 3rem;
     text-transform: uppercase;
-    text-shadow: 0 0 10px green, 0 0 20px lime, 0 0 30px limegreen;
+    text-shadow: 0 0 10px neonblue, 0 0 20px neonblue, 0 0 30px neonblue;
     animation: glitch 1s infinite;
 }
 
@@ -36,19 +36,19 @@ body {
 .message {
     font-size: 1.5rem;
     margin-top: 20px;
-    color: lightgreen;
+    color: neonblue;
     opacity: 0.8;
 }
 
 /* Glitch animation for text */
 @keyframes glitch {
     0% {
-        text-shadow: 2px 2px 0 lime, -2px -2px 0 lime;
+        text-shadow: 2px 2px 0 neonblue, -2px -2px 0 neonblue;
     }
     50% {
-        text-shadow: -2px -2px 0 limegreen, 2px 2px 0 green;
+        text-shadow: -2px -2px 0 neonblue, 2px 2px 0 neonblue;
     }
     100% {
-        text-shadow: 2px -2px 0 green, -2px 2px 0 lime;
+        text-shadow: 2px -2px 0 neonblue, -2px 2px 0 neonblue;
     }
 }
