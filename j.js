@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const hackedText = document.getElementById("hacked-text");
 
     // Typing effect for the main text
-    const message = "You want TryHackMe $50 hhhhhh";
+    const message = "Gotcha! Think before you click.";
     let index = 0;
 
     const typeEffect = () => {
